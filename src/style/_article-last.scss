@@ -1,0 +1,22 @@
+.article-last{
+  .article{
+    &__img{
+      position: relative;
+    }
+  }
+}
+
+
+.title-wrapper{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  position: absolute;
+  top:40%;
+  left:10%;
+  width: 80%;
+  color:#fff;
+  text-transform: uppercase;
+  @include titles($size:1.5vw, $weight:500);
+  letter-spacing: 2px;
+}

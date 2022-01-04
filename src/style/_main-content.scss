@@ -1,0 +1,101 @@
+.articles{
+  display:grid;
+  grid-template-columns:  65% 30%;
+  grid-gap:5%;
+  padding:99px 0 111px;
+}
+.icon{
+  z-index:10;
+  &-bookmark{
+    width: 14px;
+    height: 16px;
+    top:10%;
+    right: 6%;
+    background:url('../assets/icons/bookmark.svg') no-repeat;
+    position:absolute;
+  }
+  &-comment{
+    width: 18px;
+    height: 17px;
+    background:url('../assets/icons/comment.png') no-repeat;
+  }
+  &-views{
+    width: 24px;
+    height: 17px;
+    margin: 0 0 0 5px;
+    background:url('../assets/icons/views.png') no-repeat;
+  }
+}
+.views{
+  position: absolute;
+  display: flex;
+  color:#949398;
+  left: 5%;
+  bottom:10%;
+}
+.comment{
+  position: absolute;
+  display: flex;
+  color:#949398;
+  left: 22%;
+  bottom:10%;
+}
+.aside{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap:33px;
+  .article{
+    &__title{
+      position:absolute;
+      width: 100%;
+      top:10%;
+      @include titles("Playfair Display", 30px,900);
+      line-height:40px;
+      text-align: center;
+      text-transform: uppercase;
+      color:#fff;
+      &--black{
+        color:black;
+      }
+    }
+    &__img{
+      height:53.2vh;
+      position: relative;
+    }
+    &__btn{
+      position: absolute;
+      bottom: 40px;
+      left:30%;
+    }
+  }
+}
+
+.btn{
+  padding: 1vw 6vw 1vw 4vw;
+  border: 2px solid $orange;
+  @include titles($size:12px, $weight:600);
+  color:#fff;
+  text-transform: uppercase;
+  background: rgba($color: #000000, $alpha: 0.7);
+  position:relative;
+  .arrow{
+    position: absolute;
+    // top:0;
+    right:10px;
+    height: 17px;
+    width: 19px;
+    background:url('../assets/icons/Shape.svg');
+    background-repeat: no-repeat;
+  }
+}
+
+.title-block{
+  @include titles($size:17px);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin:0 0 15px;
+}
+
+.article__img{
+  position: relative;
+}

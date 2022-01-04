@@ -1,0 +1,26 @@
+@import "./src/style/_colors.scss";
+@import "./src/style/_fonts.scss";
+@import "./src/style/_header.scss";
+@import "./src/style/_slider.scss";
+@import "./src/style/_main-content.scss";
+@import "./src/style/_news-block.scss";
+@import "./src/style/_reviews.scss";
+@import "./src/style/_article-last.scss";
+@import "./src/style/_footer.scss";
+
+*{
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+}
+
+a, ul{
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.container{
+  max-width: 1190px;
+  margin: 0 auto;
+}

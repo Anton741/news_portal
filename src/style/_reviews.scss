@@ -1,0 +1,12 @@
+.reviews{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 28px;
+  margin:0 0 38px;
+  .article{
+    &__title{
+      @include titles('Playfair Display', 23px,900 );
+      line-height: 31px;
+    }
+  }
+}

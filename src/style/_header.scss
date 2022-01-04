@@ -1,0 +1,21 @@
+.header{
+  padding: 60px 0 0 0;
+  &__title{
+    @include titles('Playfair Display', 35px, 900);
+    text-align: center;
+  }
+}
+.menu{
+  &-list{
+    display:flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    @include titles;
+    &__item{
+      margin: 46px 0;
+    }
+    &__link{
+      color:$gray;
+    }
+  }
+}

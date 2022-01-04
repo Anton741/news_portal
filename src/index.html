@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../dist/css/style.min.css">
+  <title>News portal</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+    <h1 class="header__title">Новости культуры</h1>
+    <nav class="menu">
+      <ul class="menu-list">
+        <li class="menu-list__item"><a href="#news" class="menu-list__link">Новости</a></li>
+        <li class="menu-list__item"><a href="#reviews" class="menu-list__link">Обзоры</a></li>
+        <li class="menu-list__item"><a href="#music" class="menu-list__link">Музыка</a></li>
+        <li class="menu-list__item"><a href="#arch" class="menu-list__link">архитектура</a></li>
+        <li class="menu-list__item"><a href="#movies" class="menu-list__link">кино</a></li>
+        <li class="menu-list__item"><a href="#theatre" class="menu-list__link">театр</a></li>
+        <li class="menu-list__item"><a href="#religion" class="menu-list__link">религия</a></li>
+        <li class="menu-list__item"><a href="#literature" class="menu-list__link">литература</a></li>
+        <li class="menu-list__item"><a href="#painting" class="menu-list__link">живопись</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="slider">
+      <div class="slide">
+        <div class="slide__img">
+          <img src="./assets/slider1.png" alt="Комната в отеле">
+        </div>
+        <div class="slide__content">
+          <div class="slide__content-raw">
+            <h2 class="slide-title">Подводный отель</h2>
+            <div class="slide__nav">
+              <div class="slide__column">
+                <div class="slide__nav-item">
+                  <div class="slide__nav-item--prev">Предыдущая</div>
+                  <div class="line"></div>
+                </div>
+                <div class="arrow arrow-prev"></div>
+              </div>
+              <div class="slide__column">
+              <div class="arrow arrow-next"></div>
+              <div class="slide__nav-item">
+                <div class="line"></div>
+                  <div class="slide__nav-item--next">Следующая</div>
+                </div>
+              </div>
+              </div>
+            </div>
+            <p class="slide__text article-text">
+              Как известно, Дубай – город контрастов. Самые революционные 
+              и фантастические мечты архитекторов способен воплотить в жизнь этот мегаполис, построенный на нефти и за счет нефти
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+    <section class="articles">
+      <div class="articles__block">
+        <h2 class="title-block">Новости</h2>
+        <section class="news">
+          <div class="news__column">
+            <article class="article">
+              <div class="article__img article__img-absolute">
+                <img src="./assets/1344287851_w640_h640_33_107.png" alt="Комната в отеле">
+              </div>
+              <div class="article__dsc article__dsc-absolute">
+                <h2 class="article__title">Новости культуры России и всего мира</h2>
+                <p class="article-text">В минувшие выходные в Москве на фестивале «Оберег» вручили первую премию Russian World Music Awards</p>
+              </div>
+            </article>
+          </div>
+          <div class="news__column">
+            <article class="article">
+              <div class="article__column">
+                <div class="article__img">
+                  <img src="./assets/3800.png" alt="памятник евгению леонову">
+                  <div class="icon icon-bookmark"></div>
+                </div>
+                <div class="article__dsc">
+                <h2 class="article__title">Открытие нового памятника Евгению Леонову</h2>
+                <p class="article-text">10 сентября в 15:00 был открыт памятник писателю</p>
+              </div>
+              </div>
+            </article>
+            <article class="article">
+              <div class="article__column">
+                <div class="article__img">
+                  <div class="icon icon-bookmark"></div>
+                  <img src="./assets/bos_SES_561.png" alt="памятник евгению леонову">
+              </div>
+              <div class="article__dsc">
+                <h2 class="article__title">Беседы с писателями</h2>
+                <p class="article-text">Русские писатели говорят о важности искусства</p>
+              </div>
+              </div>
+            </article>
+            <article class="article">
+              <div class="article__column">
+                <div class="article__img">
+                  <div class="icon icon-bookmark"></div>
+                  <img src="./assets/Patrick_s_Day.png" alt="памятник евгению леонову">
+              </div>
+              <div class="article__dsc">
+                <h2 class="article__title">День и ночь св. Патрика: встреча старых друзей</h2>
+                <p class="article-text">Не Джойсом единым живет Ирландия! </p>
+              </div>
+              </div>
+            </article>
+          </div>
+        </section>
+        <h2 class="title-block">обзоры</h2>
+        <section class="reviews">
+          <article class="article">
+            <div class="article__img">
+              <div class="icon icon-bookmark"></div>
+                <div class="comment">28<div class="icon icon-comment"></div></div>
+                <div class="views">37<div class="icon icon-views"></div>
+                </div>
+                  <img src="./assets/288386.png" alt="памятник евгению леонову">
+              </div>
+              <div class="article__dsc">
+                <h2 class="article__title">«Шальные годы» Монпарнаса</h2>
+                <p class="article-text">В Музее изобразительных искусств имени Пушкина с 29 сентября по 29 ноября проходит выставка «Шальные годы Монпарнаса»</p>
+              </div>
+          </article>
+          <article class="article">
+            <div class="article__img">
+                <div class="icon icon-bookmark"></div>
+                <div class="comment">28<div class="icon icon-comment"></div></div>
+                <div class="views">37<div class="icon icon-views"></div>
+                </div>
+                  <img src="./assets/floris-jan-roelof-huiskamp-1114976-unsplash.png" alt="памятник евгению леонову">
+              </div>
+              <div class="article__dsc">
+                <h2 class="article__title">Анатомия за 30 секунд</h2>
+                <p class="article-text">Сейчас, когда мир открыт нараспашку для человека и его познавательных изысканий, интерес к научно-популярной литературе заметно вырос</p>
+              </div>
+          </article>
+          <article class="article">
+            <div class="article__img">
+              <div class="icon icon-bookmark"></div>
+                <div class="comment">28<div class="icon icon-comment"></div></div>
+                <div class="views">37<div class="icon icon-views"></div>
+                </div>
+                  <img src="./assets/13052221.png" alt="памятник евгению леонову">
+              </div>
+              <div class="article__dsc">
+                <h2 class="article__title">Русские балетные сезоны </h2>
+                <p class="article-text">В Новом Иерусалиме стартовал необычный культурно-развлекательный спектакль, который покажут в новом театре</p>
+              </div>
+          </article>
+          <article class="article">
+            <div class="article__img">
+              <div class="icon icon-bookmark"></div>
+                <div class="comment">28<div class="icon icon-comment"></div></div>
+                <div class="views">37<div class="icon icon-views"></div>
+                </div>
+                  <img src="./assets/208d7a1afa07a8352942b8f211e29b23.png" alt="памятник евгению леонову">
+              </div>
+              <div class="article__dsc">
+                <h2 class="article__title">Сферические чудаки</h2>
+                <p class="article-text">Корреспондентам «Культурного обозревателя» посчастливилось побывать в театре «Сфера» на премьере спектакля «Чудаки и зануды» </p>
+              </div>
+          </article>
+        </section>
+        <div class="pagination"></div>
+        <div class="article-last">
+          <article class="article">
+            <div class="article__img">
+              <img src="./assets/david-hofmann-588877-unsplash.png" alt="воздушные шары">
+            </div>
+            <div class="title-wrapper">
+                <h2 class="article__title">Ох, уж этот балет</h2>
+                <button class="btn article__btn">Смотреть <span class="arrow"></span></button>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="articles__block">
+        <aside class="aside">
+        <article class="article">
+          <div class="article__img">
+            <img src="./assets/drew-colins-1114440-unsplash.png" alt="воздушные шары">
+          </div>
+          <h2 class="article__title article__title--black">воздушные шары</h2>
+          <button class="btn article__btn">Смотреть <span class="arrow"></span></button>
+        </article>
+        <article class="article">
+          <div class="article__img">
+            <img src="./assets/jeremy-bishop-1114290-unsplash.png" alt="необычная фотосессия">
+          </div>
+          <h2 class="article__title">необычная фотосессия</h2>
+          <button class="btn article__btn">Смотреть <span class="arrow"></span></button>
+        </article>
+        <article class="article">
+          <div class="article__img">
+            <img src="./assets/bogdan-pasca-1114196-unsplash.png" alt="выставка птиц">
+          </div>
+          <h2 class="article__title">выставка <br> птиц</h2>
+          <button class="btn article__btn">Смотреть <span class="arrow"></span></button>
+          </div>
+        </article>
+        </aside>
+      </div>
+      <div class="articles__slider">
+        
+      </div>
+    </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <h1 class="footer__title">Новости культуры</h1>
+    <nav class="menu footer__menu">
+      <ul class="menu-list">
+        <li class="menu-list__item"><a href="#news" class="menu-list__link">Новости</a></li>
+        <li class="menu-list__item"><a href="#reviews" class="menu-list__link">Обзоры</a></li>
+        <li class="menu-list__item"><a href="#music" class="menu-list__link">Музыка</a></li>
+        <li class="menu-list__item"><a href="#arch" class="menu-list__link">архитектура</a></li>
+        <li class="menu-list__item"><a href="#movies" class="menu-list__link">кино</a></li>
+        <li class="menu-list__item"><a href="#theatre" class="menu-list__link">театр</a></li>
+        <li class="menu-list__item"><a href="#religion" class="menu-list__link">религия</a></li>
+        <li class="menu-list__item"><a href="#literature" class="menu-list__link">литература</a></li>
+        <li class="menu-list__item"><a href="#painting" class="menu-list__link">живопись</a></li>
+      </ul>
+    </nav>
+    <p class="footer__text">© 2018 Новости культуры. Все права защищены.</p>
+    </div>
+  </footer>
+</body>
+</html>

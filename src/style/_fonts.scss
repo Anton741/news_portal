@@ -1,0 +1,7 @@
+@mixin titles ($family:Raleway, $size:16px, $weight: 300){
+  font-family: $family;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: 18px;
+}

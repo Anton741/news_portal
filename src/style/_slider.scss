@@ -1,0 +1,86 @@
+
+.slide{
+  position: relative;
+  &__img{
+    position:relative;
+    max-width: 1440px;
+    height: 464px;
+    img{
+      position: absolute;
+      top:0;
+      left:0;
+      // object-fit: contain;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__content{
+    position:absolute;
+    width: 100%;
+    top:20%;
+    left:0;
+    &-raw{
+      max-width: 863px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+  &-title{
+    @include titles($size:72px);
+    color:$title_slide;
+    text-transform: uppercase;
+  }
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    margin:  0 0 55px;
+    &-item{
+      display: flex;
+      // justify-content: space-between;
+      align-items: center;
+      @include titles($weight:400, $size:14px);
+      color: #fff;
+    }
+    &__text{
+      line-height: 21px;
+    }
+  }
+  &__column{
+    display:flex;
+    justify-content: space-between;
+    flex: 50%;
+    padding: 10px 15px;
+  &:first-child{
+    border-right: 1px solid #FFFFFF;
+  }
+}
+  &__text{
+    color: $title_slide;
+    text-align: center;
+    max-width: 456px;
+    margin: 0 auto;
+  }
+}
+.article-text{
+  @include titles($weight:400, $size:14px)
+}
+
+.line{
+  width: 64px;
+  border: 1px solid #FFFFFF;
+  height: 0;
+  margin:0 10px;
+}
+
+.arrow{
+  width: 10px;
+  height: 19px;
+  &-next{
+    background:url('../../dist/assets/icons/Rectangle\ 8.1.svg');
+    background-repeat: no-repeat;
+  }
+  &-prev{
+    background:url('../../dist/assets/icons/arrow-prev.svg');
+    background-repeat: no-repeat;
+  }
+}

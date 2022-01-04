@@ -1,0 +1,17 @@
+.footer{
+  background:$footer-bg;
+  padding:26px 0 10px;
+  &__title{
+    @include titles($size:28px, $weight:900);
+    text-align:center;
+  }
+  &__menu{
+    border-bottom: 1px solid $gray-light;
+  }
+  &__text{
+    font-size: 10px;
+    line-height: 15px;
+    text-align: right;
+    color:$gray-light;
+  }
+}
